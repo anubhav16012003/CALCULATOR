@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.calculator{
+    background-color: #454545;
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+
+.display input{
+    font-size: 2rem;
+    text-align: right;
+    width: 100%;
+    height: 55px;
+}
+
+.keys{
+    text-align: center;
+    border: none;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.keys button{
+    width: 55px;
+    height: 55px;
+    border-radius: 55px;
+    font-size: 2rem;
+}
+
+.keys button:hover{
+    background-color: gray;
+}
